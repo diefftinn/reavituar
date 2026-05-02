@@ -1,0 +1,73 @@
+:root {
+    --color-primario: #0b1f91;
+    --color-fondo: #f00000;
+    --color-texto: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/* Header */
+.header {
+    background: var(--color-primario);
+    padding: 15px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Layout */
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 200px;
+    border-radius: 10px;
+}
+
+.sidebar {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 100px;
+    background: #222;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 148px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
