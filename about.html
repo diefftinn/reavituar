@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi sitio web</title>
+    <title>Galería Tienda</title>
+
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Fuente moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <!-- HEADER -->
     <header>
-        <h1>Galeria</h1>
+        <h1>Galería Premium</h1>
+
         <nav>
             <a href="index.html">Inicio</a>
             <a href="#">Servicios</a>
@@ -17,13 +23,107 @@
         </nav>
     </header>
 
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Explora nuestra colección</h2>
+            <p>
+                Productos modernos con diseño elegante
+                y calidad profesional.
+            </p>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
     <main>
-        <section>
-            <h2>Sobre nosotros</h2>
-            <p>Contenido de la página</p>
+
+        <section class="gallery">
+
+            <!-- PRODUCTO 1 -->
+            <article class="card">
+
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200" alt="Tenis deportivos">
+
+                <div class="card-content">
+                    <h3>Tenis Urban Pro</h3>
+
+                    <p>
+                        Diseño moderno, cómodos y perfectos
+                        para uso diario.
+                    </p>
+
+                    <span class="price">$120 USD</span>
+
+                    <button>Comprar</button>
+                </div>
+
+            </article>
+
+            <!-- PRODUCTO 2 -->
+            <article class="card">
+
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1200" alt="Reloj moderno">
+
+                <div class="card-content">
+                    <h3>Reloj Elegance</h3>
+
+                    <p>
+                        Acabados premium y estilo minimalista
+                        para cualquier ocasión.
+                    </p>
+
+                    <span class="price">$240 USD</span>
+
+                    <button>Comprar</button>
+                </div>
+
+            </article>
+
+            <!-- PRODUCTO 3 -->
+            <article class="card">
+
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200" alt="Chaqueta moderna">
+
+                <div class="card-content">
+                    <h3>Chaqueta Classic</h3>
+
+                    <p>
+                        Material resistente con diseño elegante
+                        y moderno.
+                    </p>
+
+                    <span class="price">$180 USD</span>
+
+                    <button>Comprar</button>
+                </div>
+
+            </article>
+
+            <!-- PRODUCTO 4 -->
+            <article class="card">
+
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1200" alt="Audifonos">
+
+                <div class="card-content">
+                    <h3>Audífonos MaxSound</h3>
+
+                    <p>
+                        Sonido envolvente y tecnología avanzada
+                        para máxima calidad.
+                    </p>
+
+                    <span class="price">$95 USD</span>
+
+                    <button>Comprar</button>
+                </div>
+
+            </article>
+
         </section>
+
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <p>© 2026 dieferti</p>
     </footer>
